@@ -10,10 +10,14 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("   /|");
-            Console.WriteLine("  / |");
-            Console.WriteLine(" /  |");
-            Console.WriteLine("/___|");
+            string characterName = "John";
+            int characterAge;
+            characterAge = 35;
+
+            Console.WriteLine("There was once a man called " + characterName);
+            Console.WriteLine("He was" + characterAge +" years old");
+            Console.WriteLine("He really like the name" + characterName);
+            Console.WriteLine("But didn't like being "+ characterAge);
 
             Console.ReadLine();
         }
